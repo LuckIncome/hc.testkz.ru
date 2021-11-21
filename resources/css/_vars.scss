@@ -1,0 +1,49 @@
+//web site colors
+$orange: #EA5C10;
+$violet: #7B549E;
+$lightblack: #393240;
+$lightgray: #E4D9EE;
+
+//buttons
+@mixin btn-request {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+    background: #EA5C10;
+    border-radius: 5px;
+    transition: .3s;
+    padding: 10px 61px;
+    max-width: 154px;
+    padding: 10px 60px;
+    white-space: nowrap;
+    outline: none;
+    border: none;
+    box-shadow: none;
+    &:hover {
+        background: #D04900;
+        color: #fff ;
+        text-decoration: none;
+    }
+}
+
+@mixin btn-watch-all {
+    display: block;
+    border: 1px solid #EA5C10;
+    border-radius: 5px;
+    padding: 9px 29px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #D04900;
+    transition: .3s;
+    max-width:154px;
+    white-space: nowrap;
+
+    &:hover {
+        border: 1px solid #D04900;
+        color: #D04900;
+        text-decoration: none;
+    }
+}
+
